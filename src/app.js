@@ -6,7 +6,7 @@ import sexRoutes from "./routes/sex.routes.js";
 const app = express();
 
 const corsOptions = {
-  origin: 'https://tu-aplicacion-angular.com', //cambiar por mi url del front
+  origin: '', //cambiar por mi url del front
   optionsSuccessStatus: 200 
 };
 
