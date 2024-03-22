@@ -1,16 +1,22 @@
 import { Router } from "express";
-import { createSex, deleteSex, getSex, getSexs, updateSex } from "../controllers/sex.controller.js";
+import {
+  createSex,
+  deleteSex,
+  getSex,
+  getSexs,
+  updateSex,
+} from "../controllers/sex.controller.js";
 
 const router = Router();
 
-router.get('/sex', getSexs)
+router.get("/sex", getSexs);
 
-router.get('/sex/:id', getSex)
+router.get("/sex/:id", getSex);
 
-router.post('/sex', createSex)
+router.post("/sex", createSex);
 
-router.patch('/sex/:id', updateSex)
+router.patch("/sex/:id", updateSex);
 
-router.delete('/sex/:id', deleteSex)
+router.delete("/sex/:id", deleteSex);
 
 export default router;

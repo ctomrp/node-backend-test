@@ -1,0 +1,32 @@
+[
+    {
+        "first_name": "Hermione",
+        "last_name": "Granger",
+        "dni": "12345678A",
+        "sex_id": 3,
+        "phone_number": "123456789",
+        "address": "123 Main St, London",
+        "birth_date": "1979-09-19",
+        "email": "hermione@example.com"
+    },
+    {
+        "first_name": "Ron",
+        "last_name": "Weasley",
+        "dni": "87654321B",
+        "sex_id": 1,
+        "phone_number": "987654321",
+        "address": "456 Elm St, London",
+        "birth_date": "1980-03-01",
+        "email": "ron@example.com"
+    },
+    {
+        "first_name": "Harry",
+        "last_name": "Potter",
+        "dni": "54321678C",
+        "sex_id": 1,
+        "phone_number": "987654321",
+        "address": "789 Oak St, London",
+        "birth_date": "1980-07-31",
+        "email": "harry@example.com"
+    }
+]
