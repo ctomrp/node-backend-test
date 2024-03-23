@@ -3,13 +3,13 @@ import {
   createSex,
   deleteSex,
   getSex,
-  getSexs,
+  getSexes,
   updateSex,
 } from "../controllers/sex.controller.js";
 
 const router = Router();
 
-router.get("/sex", getSexs);
+router.get("/sex", getSexes);
 
 router.get("/sex/:id", getSex);
 

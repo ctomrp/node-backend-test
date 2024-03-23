@@ -6,8 +6,8 @@ import sexRoutes from "./routes/sex.routes.js";
 const app = express();
 
 const corsOptions = {
-  origin: '', //cambiar por mi url del front
-  optionsSuccessStatus: 200 
+  origin: "http://localhost:4200",
+  optionsSuccessStatus: 200,
 };
 
 app.use(cors(corsOptions));
