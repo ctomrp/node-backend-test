@@ -4,7 +4,7 @@ import {
   getSexService,
   getSexesService,
   updateSexService,
-} from "../services/sex.service.js";
+} from "../apis/sex.service.js";
 
 export const getSexes = async (req, res) => {
   await getSexesService(req, res);
