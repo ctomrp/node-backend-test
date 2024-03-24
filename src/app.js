@@ -7,7 +7,7 @@ import { ALLOWED_ORIGIN } from "./config.js";
 const app = express();
 
 const corsOptions = {
-  origin: ALLOWED_ORIGIN,
+  origin: '*',
   optionsSuccessStatus: 200,
 };
 
