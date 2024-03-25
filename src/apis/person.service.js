@@ -41,7 +41,7 @@ export async function createPersonService(req, res) {
       email,
     } = req.body;
     const [result] = await pool.query(
-      "INSERT INTO person (first_name, last_name, dni, sex_id, phone_number, address, birth_date, email) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT INTO person (first_name, last_name, dni, sex_id, phone_number, address, birth_date, email) VALUES (UPPER(?), UPPER(?), UPPER(?), ?, ?, UPPER(?), ?, LOWER(?))",
       [
         first_name,
         last_name,
