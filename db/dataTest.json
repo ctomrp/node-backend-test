@@ -28,5 +28,15 @@
         "address": "789 Oak St, London",
         "birth_date": "1980-07-31",
         "email": "harry@example.com"
-    }
+    },
+    {
+        "first_name": "Tom",
+        "last_name": "Riddle",
+        "dni": "87654321V",
+        "sex_id": 1,
+        "phone_number": "123456789",
+        "address": "666 Dark Alley, Little Hangleton",
+        "birth_date": "1926-12-31",
+        "email": "tom@example.com"
+    }    
 ]
